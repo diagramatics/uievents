@@ -2317,8 +2317,8 @@ myDiv.addEventListener("auxclick", function(e) {
 			 | (trusted events) | <li>{{Event}}.{{Event/target}} : <a>event target</a> that was just updated</li>      |
 			 |                  | <li>{{UIEvent}}.{{UIEvent/view}} : <a><code>Window</code></a></li>                   |
 			 |                  | <li>{{UIEvent}}.{{UIEvent/detail}} : <code>0</code></li>                             |
-			 |                  | <li>{{InputEvent}}.{{InputEvent/data}} : the string containing the data that will    |
-			 |                  |     be added to the element, which MAY be the <a>empty string</a> if the content has |
+			 |                  | <li>{{InputEvent}}.{{InputEvent/data}} : the string containing the data that has    |
+			 |                  |     been added to the element, which MAY be the <a>empty string</a> if the content has |
 			 |                  |     been deleted</li>                                                                |
 			 |                  | <li>{{InputEvent}}.{{InputEvent/isComposing}} : <code>true</code> if this event is   |
 			 |                  |     dispatched during a <a href="#keys-dead">dead key</a> sequence or while an       |
